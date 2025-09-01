@@ -1,7 +1,7 @@
 
-# Analysis of CICIDS2017 with ENN and Port Test
+# Analysis of IDS datasets with ENN and Port Test
 
-This project applies two quality assessment methods from the *Bad Design Smells in Benchmark NIDS Datasets* paper to the **CICIDS2017 dataset**:
+This project applies two quality assessment methods from the *Bad Design Smells in Benchmark NIDS Datasets* paper to the **CICIDS2017 dataset** for now and will be updated to run it on more datasets:
 
 1. **Edited Nearest Neighbour Rule (ENN)** – detects mislabeled or noisy samples by checking whether each instance agrees with its *k* nearest neighbors.
 2. **Port Test** – flags potential ambiguity in dataset labeling when benign traffic uses well-known background service ports (e.g., DNS 53, NTP 123).
@@ -53,5 +53,5 @@ Together, the two methods reveal **complementary dataset weaknesses**:
 
 ## Next Steps
 
-* Extend analysis to other IDS datasets (e.g., Bot-IoT, AWID3) for comparison.
+* Extend analysis to other IDS datasets (will start with more from Konstantinous table) for comparison.
 * Visualize ENN vs. Port Test results with more plots
