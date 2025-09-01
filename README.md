@@ -53,5 +53,5 @@ Together, the two methods reveal **complementary dataset weaknesses**:
 
 ## Next Steps
 
-* Extend analysis to other IDS datasets (will start with more from Konstantinous table) for comparison.
+* Extend analysis to other IDS datasets for comparison.
 * Visualize ENN vs. Port Test results with more plots
