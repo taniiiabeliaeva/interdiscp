@@ -5,14 +5,6 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # Data Preprocessing
 def load_and_preprocess(file_path, label_col="Label"):
-    """
-    Loads a dataset CSV and preprocesses it:
-    - Strips column names
-    - Converts features to numeric
-    - Handles NaN/inf
-    - Normalizes features
-    Returns: X_scaled, y, original DataFrame
-    """
     df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip()
 
